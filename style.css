@@ -1,0 +1,896 @@
+/* Google Fonts */
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+    background:#ffffff;
+
+}
+
+.hero{
+
+    background:#F4FAFF;
+    min-height:90vh;
+
+    display:flex;
+    align-items:center;
+
+}
+
+.hero-subtitle{
+
+    color:#6CA6C1;
+
+    font-weight:600;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+}
+
+.hero-title{
+
+    font-family:'Playfair Display', serif;
+
+    font-size:60px;
+
+    font-weight:bold;
+
+    color:#233142;
+
+    margin:20px 0;
+
+}
+
+.hero-text{
+
+    font-size:18px;
+
+    color:#555;
+
+    line-height:1.8;
+
+}
+
+.hero-btn{
+
+    background:#AED9F4;
+
+    color:#fff;
+
+    padding:14px 35px;
+
+    border-radius:40px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.hero-btn:hover{
+
+    background:#89C8EE;
+
+    transform:translateY(-5px);
+
+    color:white;
+
+}
+
+.hero-img{
+
+    width:90%;
+
+    animation:float 4s ease-in-out infinite;
+
+}
+
+@keyframes float{
+
+0%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-15px);
+
+}
+
+100%{
+
+transform:translateY(0);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.hero{
+
+text-align:center;
+
+padding:60px 0;
+
+}
+
+.hero-title{
+
+font-size:42px;
+
+}
+
+.hero-img{
+
+margin-top:40px;
+
+width:80%;
+
+}
+
+}
+
+/* ==========================
+      Categories Section
+========================== */
+
+.categories{
+
+    background:#fff;
+    
+}
+
+.section-title{
+
+    font-family:'Playfair Display', serif;
+
+    font-size:40px;
+
+    color:#233142;
+
+    font-weight:bold;
+
+}
+
+.section-subtitle{
+
+    color:#666;
+
+    margin-top:10px;
+
+}
+
+.category-card{
+
+    background:#F4FAFF;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    text-align:center;
+
+    transition:.4s;
+
+    cursor:pointer;
+
+    box-shadow:0 10px 20px rgba(0,0,0,.05);
+
+}
+
+.category-card img{
+
+    width:170px;
+
+    height:170px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    margin-bottom:20px;
+
+}
+
+.category-card h4{
+
+    color:#233142;
+
+    font-weight:600;
+
+}
+
+.category-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.12);
+
+}
+
+/* ==========================
+      Deal Section
+========================== */
+
+ .deal{
+
+    background:#F4FAFF;
+
+}
+
+.deal-card{
+
+    background:white;
+
+    padding:50px;
+
+    border-radius:25px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.deal-image{
+
+    max-width:350px;
+
+    border-radius:20px;
+
+    transition:.5s;
+
+}
+
+.deal-image:hover{
+
+    transform:scale(1.05);
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+
+    background-color:#AED9F4;
+
+    border-radius:50%;
+
+    padding:20px;
+
+}
+
+.carousel-indicators button{
+
+    background:#AED9F4;
+
+}
+
+.offer-tag{
+
+    background:#AED9F4;
+
+    color:white;
+
+    padding:8px 20px;
+
+    border-radius:30px;
+
+    display:inline-block;
+
+    margin-bottom:20px;
+
+}
+/* ===========================
+   Featured Products
+=========================== */
+
+.featured-products{
+
+    background:#fff;
+
+}
+
+.product-card{
+
+    background:#F9FCFF;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    position:relative;
+
+    transition:.4s;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.product-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 35px rgba(0,0,0,.12);
+
+}
+
+.discount-badge{
+
+    position:absolute;
+
+    top:15px;
+
+    left:15px;
+
+    background:#AED9F4;
+
+    color:white;
+
+    padding:5px 12px;
+
+    border-radius:20px;
+
+    font-size:14px;
+
+}
+
+.product-img{
+
+    height:250px;
+
+    width:100%;
+
+    object-fit:cover;
+
+}
+
+.product-body{
+
+    padding:20px;
+
+    text-align:center;
+
+}
+
+.rating{
+
+    color:#FFD700;
+
+    margin:10px 0;
+
+}
+
+.product-body h4{
+
+    color:#233142;
+
+    font-weight:bold;
+
+}
+
+.product-buttons{
+
+    display:flex;
+
+    /* justify-content:center; */
+
+    gap:15px;
+
+    margin-top:15px;
+
+}
+
+.wishlist-btn{
+
+    /* width:45px; */
+
+    /* height:45px; */
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#EAF6FD;
+
+    transition:.3s;
+
+}
+
+.wishlist-btn:hover{
+
+    background:#AED9F4;
+
+    color:white;
+
+}
+
+.cart-btn{
+
+    border:none;
+
+    background:#AED9F4;
+
+    color:white;
+
+    padding:10px 20px;
+
+    border-radius:30px;
+
+    transition:.3s;
+
+}
+
+.cart-btn:hover{
+
+    background:#89C8EE;
+
+}
+/* ==========================
+      New Arrivals
+========================== */
+
+.new-arrivals{
+
+    background:#F8FCFF;
+
+}
+
+.arrival-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    position:relative;
+
+    transition:.4s;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.arrival-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.arrival-img{
+
+    width:100%;
+
+    height:280px;
+
+    object-fit:cover;
+
+    transition:.5s;
+
+}
+
+.arrival-card:hover .arrival-img{
+
+    transform:scale(1.08);
+
+}
+
+.arrival-content{
+
+    padding:20px;
+
+    text-align:center;
+
+}
+
+.arrival-content h5{
+
+    color:#233142;
+
+    font-weight:600;
+
+}
+
+.arrival-content p{
+
+    color:#6CA6C1;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+}
+
+.new-badge{
+
+    position:absolute;
+
+    top:15px;
+
+    left:15px;
+
+    background:#AED9F4;
+
+    color:white;
+
+    padding:6px 15px;
+
+    border-radius:25px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+/*=========================
+      Best Sellers
+==========================*/
+
+.best-sellers{
+
+    background:white;
+
+}
+
+.best-card{
+
+    background:#F8FCFF;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    transition:.4s;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.best-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.best-card img{
+
+    width:100%;
+
+    height:260px;
+
+    object-fit:cover;
+
+    border-radius:15px;
+
+}
+
+.best-card h4{
+
+    margin-top:20px;
+
+    color:#233142;
+
+}
+
+.best-card p{
+
+    color:#6CA6C1;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+}
+/*=========================
+      Testimonials
+==========================*/
+
+.testimonials{
+
+    background:#F8FCFF;
+
+}
+
+.testimonial-card{
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.4s;
+
+}
+
+.testimonial-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.testimonial-img{
+
+    width:100px;
+
+    height:100px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    margin-bottom:20px;
+
+    border:4px solid #AED9F4;
+
+}
+
+.stars{
+
+    color:gold;
+
+    margin:15px 0;
+
+    font-size:20px;
+
+}
+
+.testimonial-card p{
+
+    color:#555;
+
+    line-height:1.7;
+
+}
+/*=========================
+      Newsletter
+==========================*/
+
+.newsletter{
+
+    background:#fff;
+
+}
+
+.newsletter-box{
+
+    background:#EAF7FF;
+
+    border-radius:25px;
+
+    padding:50px;
+
+}
+
+.newsletter-box h2{
+
+    color:#233142;
+
+    font-family:'Playfair Display', serif;
+
+    font-weight:bold;
+
+}
+
+.newsletter-box p{
+
+    color:#555;
+
+}
+
+.newsletter-form input{
+
+    height:55px;
+
+    border-radius:30px;
+
+}
+
+.newsletter-form button{
+
+    border-radius:30px;
+
+}
+/*=========================
+        Contact
+==========================*/
+
+.contact{
+
+    background:#F8FCFF;
+
+}
+
+.contact-info{
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    height:100%;
+
+}
+
+.contact-info h3{
+
+    color:#233142;
+
+    font-family:'Playfair Display', serif;
+
+    margin-bottom:20px;
+
+}
+
+.contact-item{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    margin-top:25px;
+
+}
+
+.contact-item i{
+
+    font-size:28px;
+
+    color:#AED9F4;
+
+    margin-right:20px;
+
+}
+
+.contact-form{
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.contact-form .form-control{
+
+    border-radius:12px;
+
+    padding:12px;
+
+}
+
+.contact-form textarea{
+
+    resize:none;
+
+}
+
+/*=========================
+        Copyright
+==========================*/
+
+.copyright{
+
+    background:#1B2838;
+
+    color:#fff;
+
+    padding:18px 0;
+
+}
+
+.copyright p{
+
+    margin:0;
+
+    font-size:15px;
+
+}
+
+.copyright a{
+
+    color:#AED9F4;
+
+    text-decoration:none;
+
+    margin:0 8px;
+
+    transition:.3s;
+
+}
+
+.copyright a:hover{
+
+    color:white;
+
+}
+
+.copyright span{
+
+    color:#ccc;
+
+}
+
+/*=========================
+        loader
+==========================*/
+
+
+#loader{
+
+position:fixed;
+
+width:100%;
+
+height:100vh;
+
+background:white;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+z-index:99999;
+
+}
+
+/*=========================
+        toast
+==========================*/
+
+/*==================================
+        Toast
+==================================*/
+
+.toast-box{
+
+    position:fixed;
+
+    top:100px;
+
+    right:20px;
+
+    background:#6CA6C1;
+
+    color:white;
+
+    padding:15px 25px;
+
+    border-radius:8px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+
+    opacity:0;
+
+    transform:translateX(100px);
+
+    transition:.3s;
+
+    z-index:9999;
+
+}
+
+.toast-box.show{
+
+    opacity:1;
+
+    transform:translateX(0);
+
+}

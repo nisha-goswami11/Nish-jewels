@@ -1,0 +1,358 @@
+/*==================================
+        SHOP PAGE
+===================================*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background:#ffffff;
+}
+
+/*==================================
+        Shop Banner
+===================================*/
+
+.shop-banner{
+
+    margin-top:75px;
+    background:#EAF6FD;
+    padding:90px 0;
+    text-align:center;
+
+}
+
+.shop-banner h1{
+
+    font-family:'Playfair Display', serif;
+    font-size:55px;
+    color:#233142;
+    font-weight:700;
+
+}
+
+.shop-banner p{
+
+    color:#555;
+    font-size:18px;
+    margin-top:15px;
+
+}
+
+/*==================================
+      Search & Filter
+===================================*/
+
+.shop-controls{
+
+    background:#fff;
+    padding:20px 0;
+
+}
+
+.shop-controls .form-control,
+.shop-controls .form-select{
+
+    height:50px;
+    border-radius:12px;
+    border:1px solid #d8eaf8;
+
+}
+
+.shop-controls .form-control:focus,
+.shop-controls .form-select:focus{
+
+    box-shadow:none;
+    border-color:#AED9F4;
+
+}
+
+/*==================================
+        Product Card
+===================================*/
+
+.product-card{
+
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+    transition:.4s;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+    position:relative;
+
+}
+
+.product-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+/*==================================
+      Product Image
+===================================*/
+
+.product-img{
+
+    width:100%;
+    height:270px;
+    object-fit:cover;
+    transition:.5s;
+
+}
+
+.product-card:hover .product-img{
+
+    transform:scale(1.08);
+
+}
+
+/*==================================
+      Discount Badge
+===================================*/
+
+.discount{
+
+    position:absolute;
+    top:15px;
+    left:15px;
+    background:#AED9F4;
+    color:white;
+    padding:6px 15px;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:600;
+
+}
+
+/*==================================
+      Wishlist Button
+===================================*/
+
+.wishlist{
+
+    position:absolute;
+    top:15px;
+    right:15px;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    transition:.3s;
+
+}
+
+.wishlist:hover{
+
+    background:#AED9F4;
+    color:white;
+
+}
+
+/*==================================
+      Product Body
+===================================*/
+
+.product-body{
+
+    padding:20px;
+    text-align:center;
+
+}
+
+.product-body h4{
+
+    font-size:22px;
+    color:#233142;
+    font-weight:600;
+
+}
+
+.product-body p{
+
+    color:#666;
+    margin:10px 0;
+
+}
+
+/*==================================
+      Rating
+===================================*/
+
+.rating{
+
+    color:#FFD700;
+    margin:12px 0;
+
+}
+
+/*==================================
+      Price
+===================================*/
+
+.price{
+
+    font-size:24px;
+    color:#6CA6C1;
+    font-weight:bold;
+
+}
+
+/*==================================
+      Buttons
+===================================*/
+
+.product-buttons{
+
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin-top:20px;
+
+}
+
+.cart-btn{
+
+    background:#AED9F4;
+    color:white;
+    border:none;
+    padding:10px 18px;
+    border-radius:30px;
+    transition:.3s;
+
+}
+
+.cart-btn:hover{
+
+    background:#89C8EE;
+
+}
+
+.view-btn{
+
+    border:1px solid #AED9F4;
+    color:#6CA6C1;
+    background:white;
+    padding:10px 18px;
+    border-radius:30px;
+    transition:.3s;
+
+}
+
+.view-btn:hover{
+
+    background:#AED9F4;
+    color:white;
+
+}
+
+/*==================================
+      Pagination
+===================================*/
+
+.pagination{
+
+    justify-content:center;
+    margin-top:50px;
+
+}
+
+.page-link{
+
+    color:#6CA6C1;
+    border-radius:10px;
+    margin:0 5px;
+    border:none;
+
+}
+
+.page-link:hover{
+
+    background:#AED9F4;
+    color:white;
+
+}
+
+.page-item.active .page-link{
+
+    background:#AED9F4;
+    border:none;
+
+}
+
+/*==================================
+      Footer
+===================================*/
+
+.footer{
+
+    background:#233142;
+    color:white;
+    padding:40px 0;
+    text-align:center;
+    margin-top:80px;
+
+}
+
+.footer h4{
+
+    font-family:'Playfair Display', serif;
+
+}
+
+.footer hr{
+
+    border-color:#AED9F4;
+
+}
+
+/*==================================
+      Responsive
+===================================*/
+
+@media(max-width:992px){
+
+.shop-banner h1{
+
+    font-size:40px;
+
+}
+
+.product-img{
+
+    height:220px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.shop-banner{
+
+    padding:60px 0;
+
+}
+
+.shop-banner h1{
+
+    font-size:32px;
+
+}
+
+.product-buttons{
+
+    flex-direction:column;
+
+}
+
+.cart-btn,
+.view-btn{
+
+    width:100%;
+
+}
+
+}

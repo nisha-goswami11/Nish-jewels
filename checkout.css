@@ -1,0 +1,278 @@
+/*==================================
+        CHECKOUT PAGE
+==================================*/
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#F8FCFF;
+}
+
+/*==================================
+        Checkout Banner
+==================================*/
+
+.checkout-banner{
+
+    margin-top:75px;
+    padding:80px 0;
+    background:linear-gradient(135deg,#EAF6FD,#F8FCFF);
+    text-align:center;
+
+}
+
+.checkout-banner h1{
+
+    font-family:'Playfair Display',serif;
+    font-size:48px;
+    font-weight:700;
+    color:#233142;
+
+}
+
+.checkout-banner p{
+
+    color:#666;
+    font-size:18px;
+
+}
+
+/*==================================
+        Checkout Section
+==================================*/
+
+.checkout-section{
+
+    padding:80px 0;
+
+}
+
+/*==================================
+        Checkout Card
+==================================*/
+
+.checkout-card{
+
+    background:#fff;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    margin-bottom:30px;
+
+}
+
+.checkout-card h3{
+
+    font-family:'Playfair Display',serif;
+    color:#233142;
+    margin-bottom:25px;
+
+}
+
+/*==================================
+        Form
+==================================*/
+
+.checkout-card label{
+
+    font-weight:500;
+    color:#233142;
+    margin-bottom:8px;
+
+}
+
+.form-control{
+
+    border-radius:12px;
+    padding:12px;
+
+}
+
+.form-control:focus{
+
+    border-color:#6CA6C1;
+    box-shadow:0 0 8px rgba(108,166,193,.25);
+
+}
+
+/*==================================
+        Order Summary
+==================================*/
+
+#checkoutItems{
+
+    max-height:280px;
+    overflow-y:auto;
+    margin-bottom:20px;
+
+}
+
+.checkout-item{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:15px;
+    padding-bottom:15px;
+    border-bottom:1px solid #eee;
+
+}
+
+.checkout-item img{
+
+    width:60px;
+    height:60px;
+    object-fit:cover;
+    border-radius:10px;
+
+}
+
+.checkout-info{
+
+    flex:1;
+    margin-left:15px;
+
+}
+
+.checkout-info h6{
+
+    margin:0;
+    color:#233142;
+
+}
+
+.checkout-info p{
+
+    margin:5px 0 0;
+    color:#777;
+    font-size:14px;
+
+}
+
+/*==================================
+        Payment
+==================================*/
+
+.payment-method{
+
+    margin-top:30px;
+
+}
+
+.payment-method h5{
+
+    color:#233142;
+    margin-bottom:15px;
+
+}
+
+.form-check{
+
+    background:#F8FCFF;
+    padding:12px 15px;
+    border-radius:12px;
+    margin-bottom:10px;
+    border:1px solid #EAF6FD;
+
+}
+
+.form-check:hover{
+
+    border-color:#6CA6C1;
+
+}
+
+/*==================================
+        Place Order Button
+==================================*/
+
+.place-order-btn{
+
+    background:#6CA6C1;
+    color:#fff;
+    border:none;
+    border-radius:30px;
+    padding:14px;
+    font-size:18px;
+    font-weight:600;
+    transition:.3s;
+
+}
+
+.place-order-btn:hover{
+
+    background:#4E8FAE;
+    color:#fff;
+
+}
+
+/*==================================
+        Sticky Summary
+==================================*/
+
+.col-lg-5 .checkout-card{
+
+    position:sticky;
+    top:100px;
+
+}
+
+/*==================================
+        Responsive
+==================================*/
+
+@media(max-width:992px){
+
+.col-lg-5 .checkout-card{
+
+position:static;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.checkout-banner{
+
+padding:60px 20px;
+
+}
+
+.checkout-banner h1{
+
+font-size:34px;
+
+}
+
+.checkout-card{
+
+padding:20px;
+
+}
+
+.checkout-item{
+
+flex-direction:column;
+text-align:center;
+
+}
+
+.checkout-item img{
+
+margin-bottom:10px;
+
+}
+
+.checkout-info{
+
+margin-left:0;
+
+}
+
+.place-order-btn{
+
+font-size:16px;
+
+}
+
+}

@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product Details | NISH Jewels</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product.css">
+
+</head>
+
+<body>
+
+    <!-- ==========================================
+                    NAVBAR
+    =========================================== -->
+
+       <nav class="navbar navbar-expand-lg fixed-top shadow-sm bg-white">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#">
+                💎 NISH Jewels
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbar">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse"
+                id="navbar">
+
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="product.html">Products</a>
+                    </li>
+
+                    <li class="nav-item">   
+                        <a class="nav-link active" href="shop.html">Shop</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+
+                <form class="d-flex me-3">
+
+                    <input class="form-control"
+                        type="search"
+                        placeholder="Search Jewellery">
+
+                </form>
+
+                
+
+                <div class="d-flex align-items-center gap-3">
+
+                    <a href="wishlist.html" class="position-relative">
+
+                        <i class="bi bi-heart fs-4"></i>
+
+                        <span id="wishlistCount"
+                            class="badge bg-danger position-absolute top-0 start-100 translate-middle">
+                            0
+                        </span>
+
+                    </a>
+                    
+                    <a href="cart.html" class="position-relative">
+
+                        <i class="bi bi-cart3 fs-4"></i>
+
+                        <span id="cartCount" class="badge bg-primary position-absolute top-0 start-100 translate-middle">
+                            0
+                        </span>
+
+                    </a>
+
+                    <a href="login.html" class="position-relative">
+
+                    <button class="btn btn-primary rounded-pill px-4">
+                        Login
+                    </button>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- ==========================================
+                PRODUCT BREADCRUMB
+    =========================================== -->
+
+    <section class="product-banner">
+
+        <div class="container">
+
+            <nav>
+
+                <ol class="breadcrumb">
+
+                    <li class="breadcrumb-item">
+
+                        <a href="index.html">Home</a>
+
+                    </li>
+
+                    <li class="breadcrumb-item">
+
+                        <a href="shop.html">Shop</a>
+
+                    </li>
+
+                    <li class="breadcrumb-item active product item">
+
+                        Diamond Ring
+
+                    </li>
+
+                </ol>
+
+            </nav>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+                PRODUCT DETAILS
+    =========================================== -->
+
+    <section class="product-section py-5">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <!-- Product Images -->
+
+                <div class="col-lg-6">
+
+                    <div class="product-gallery">
+
+                        <div class="thumbnail-images">
+
+                            <img src="WhatsApp Image 2026-06-22 at 1.51.59 PM (10).jpeg" class="thumb active-thumb">
+                            <img src="WhatsApp Image 2026-06-22 at 1.51.59 PM (11).jpeg" class="thumb">
+                            <img src="WhatsApp Image 2026-06-22 at 1.51.59 PM (1).jpeg" class="thumb">
+                            <img src="WhatsApp Image 2026-06-22 at 1.51.59 PM (7).jpeg" class="thumb">
+
+
+                        </div>
+
+                        <div class="main-image">
+
+                            <img src="Rose gold ring.jpeg"
+                                id="mainProductImage"
+                                class="img-fluid">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Product Info -->
+
+                <div class="col-lg-6">
+
+                    <h1 class="product-title"> 
+
+                    </h1>
+
+                    <div class="rating">
+
+                        ★★★★★
+
+                        <span>(128 Reviews)</span>
+
+                    </div>
+
+                    <h2 class="price">
+
+                        ₹2,999
+
+                    </h2>
+
+                    <p class="availability">
+
+                        <i class="bi bi-check-circle-fill text-success"></i>
+
+                        In Stock
+
+                    </p>
+
+                    <p class="description">
+
+                        Elegant handcrafted diamond ring made with premium quality materials. Perfect for weddings,
+                        anniversaries and special occasions.
+
+                    </p>
+
+
+                    <div class="product-meta">
+
+                        <p>
+
+                            <strong>Category:</strong>
+
+                            <span class="product-category">Rings</span>
+
+                        </p>
+
+                        <p>
+
+                            <strong>Material:</strong>
+
+                            <span class="product-material">Sterling Silver</span>
+
+                        </p>
+
+                    </div>
+
+
+                    <!-- Quantity -->
+
+                    <div class="quantity-section">
+
+                        <h5>Quantity</h5>
+
+                        <div class="quantity-box">
+
+                            <button id="minusBtn">-</button>
+
+                            <span id="quantity">1</span>
+
+                            <button id="plusBtn">+</button>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Buttons -->
+
+                    <div class="product-buttons">
+
+                        <button class="btn cart-btn">
+
+                            <i class="bi bi-cart"></i>
+
+                            Add To Cart
+
+                        </button>
+
+                        <button class="btn wishlist-btn">
+
+                            <i class="bi bi-heart"></i>
+
+                            Wishlist
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+                DESCRIPTION
+    =========================================== -->
+
+    <section class="description-section">
+
+        <div class="container">
+
+            <h2>
+
+                Product Description
+
+            </h2>
+
+            <p>
+
+                This elegant diamond ring is designed to bring timeless beauty and sophistication. Crafted with
+                exceptional attention to detail, it offers both durability and luxury, making it the perfect accessory
+                for everyday elegance or memorable celebrations.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+                SHIPPING INFO
+    =========================================== -->
+
+    <section class="shipping-section">
+
+        <div class="container">
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+
+                    <div class="info-card">
+
+                        <i class="bi bi-truck"></i>
+
+                        <h5>Free Shipping</h5>
+
+                        <p>Free delivery on all orders.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="info-card">
+
+                        <i class="bi bi-arrow-repeat"></i>
+
+                        <h5>7-Day Return</h5>
+
+                        <p>Easy return policy for eligible products.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="info-card">
+
+                        <i class="bi bi-shield-lock"></i>
+
+                        <h5>Secure Payment</h5>
+
+                        <p>100% safe and encrypted payments.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+                RELATED PRODUCTS
+    =========================================== -->
+
+    <section class="related-products py-5">
+
+        <div class="container">
+
+            <h2 class="text-center mb-5">
+
+                Related Products
+
+            </h2>
+
+            <div class="row g-4">
+
+                <!-- Product 1 -->
+
+                <div class="col-lg-3 col-md-6">
+
+                    <div class="product-card">
+
+                        <img src="WhatsApp Image 2026-06-22 at 1.51.59 PM (11).jpeg" class="img-fluid">
+
+                        <h5>Gold Ring</h5>
+
+                        <p>₹2,499</p>
+
+                    </div>
+
+                </div>
+
+                <!-- Product 2 -->
+
+                <div class="col-lg-3 col-md-6">
+
+                    <div class="product-card">
+
+                        <img src="gold necklace.jpeg" class="img-fluid">
+
+                        <h5>Necklace</h5>
+
+                        <p>₹4,299</p>
+
+                    </div>
+
+                </div>
+
+                <!-- Product 3 -->
+
+                <div class="col-lg-3 col-md-6">
+
+                    <div class="product-card">
+
+                        <img src="pearl earing.jpeg" class="img-fluid">
+
+                        <h5>Earrings</h5>
+
+                        <p>₹1,899</p>
+
+                    </div>
+
+                </div>
+
+                <!-- Product 4 -->
+
+                <div class="col-lg-3 col-md-6">
+
+                    <div class="product-card">
+
+                        <img src="gold bracelet.jpeg" class="img-fluid">
+
+                        <h5>Bracelet</h5>
+
+                        <p>₹2,199</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+                    FOOTER
+    =========================================== -->
+
+    <div class="copyright">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <!-- Left Side -->
+
+                <div class="col-md-6 text-center text-md-start">
+
+                    <p class="mb-0">
+                        © 2026 NISH Jewels. All Rights Reserved.
+                    </p>
+
+                </div>
+
+                <!-- Right Side -->
+
+                <div class="col-md-6 text-center text-md-end">
+
+                    <a href="#">Privacy Policy</a>
+
+                    <span>|</span>
+
+                    <a href="#">Terms & Conditions</a>
+
+                    <span>|</span>
+
+                    <a href="#">Sitemap</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Common Functions -->
+    <script src="common.js"></script>
+
+    <!-- Product Page -->
+    <script src="product.js"></script>
+
+
+</body>
+
+</html>

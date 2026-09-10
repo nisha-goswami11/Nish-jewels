@@ -1,0 +1,318 @@
+/*==================================
+        ABOUT PAGE
+===================================*/
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#ffffff;
+    overflow-x:hidden;
+}
+
+/*==================================
+        About Hero
+===================================*/
+
+.about-hero{
+
+    margin-top:75px;
+    padding:100px 0;
+    background:linear-gradient(135deg,#EAF6FD,#F8FCFF);
+    text-align:center;
+
+}
+
+.about-hero h1{
+
+    font-family:'Playfair Display',serif;
+    font-size:60px;
+    color:#233142;
+    font-weight:700;
+
+}
+
+.about-hero p{
+
+    font-size:20px;
+    color:#666;
+    max-width:700px;
+    margin:20px auto 0;
+
+}
+
+/*==================================
+        About Company
+===================================*/
+
+.about-company{
+
+    padding:80px 0;
+
+}
+
+.about-company img{
+
+    width:100%;
+    border-radius:25px;
+    transition:.5s;
+    box-shadow:0 15px 35px rgba(0,0,0,.10);
+
+}
+
+.about-company img:hover{
+
+    transform:scale(1.03);
+
+}
+
+.about-company h2{
+
+    font-family:'Playfair Display',serif;
+    font-size:42px;
+    color:#233142;
+    margin-bottom:25px;
+
+}
+
+.about-company p{
+
+    color:#666;
+    line-height:1.9;
+    margin-bottom:20px;
+    text-align:justify;
+
+}
+
+/*==================================
+      Mission & Vision
+===================================*/
+
+.mission{
+
+    background:#F8FCFF;
+    padding:80px 0;
+
+}
+
+.mission-card{
+
+    background:#fff;
+    padding:40px;
+    text-align:center;
+    border-radius:20px;
+    transition:.4s;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.mission-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.mission-card i{
+
+    font-size:55px;
+    color:#AED9F4;
+    margin-bottom:20px;
+
+}
+
+.mission-card h3{
+
+    color:#233142;
+    margin-bottom:15px;
+
+}
+
+.mission-card p{
+
+    color:#666;
+    line-height:1.8;
+
+}
+
+/*==================================
+      Why Choose Us
+===================================*/
+
+.choose{
+
+    padding:80px 0;
+
+}
+
+.section-title{
+
+    font-family:'Playfair Display',serif;
+    font-size:45px;
+    color:#233142;
+    margin-bottom:15px;
+
+}
+
+.choose-card{
+
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    transition:.4s;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.choose-card:hover{
+
+    background:#EAF6FD;
+    transform:translateY(-10px);
+
+}
+
+.choose-card i{
+
+    font-size:45px;
+    color:#AED9F4;
+    margin-bottom:20px;
+
+}
+
+.choose-card h4{
+
+    color:#233142;
+    font-size:22px;
+
+}
+
+/*==================================
+      CTA Section
+===================================*/
+
+.about-cta{
+
+    background:linear-gradient(135deg,#AED9F4,#DCEFFB);
+    text-align:center;
+    padding:90px 0;
+
+}
+
+.about-cta h2{
+
+    font-family:'Playfair Display',serif;
+    font-size:45px;
+    color:#233142;
+    margin-bottom:20px;
+
+}
+
+.about-cta p{
+
+    color:#444;
+    font-size:18px;
+    margin-bottom:30px;
+
+}
+
+.about-cta .hero-btn{
+
+    background:white;
+    color:#233142;
+    padding:14px 35px;
+    border-radius:40px;
+    font-weight:600;
+    transition:.3s;
+
+}
+
+.about-cta .hero-btn:hover{
+
+    background:#233142;
+    color:white;
+    transform:translateY(-5px);
+
+}
+
+/*==================================
+      Responsive
+===================================*/
+
+@media(max-width:992px){
+
+.about-hero h1{
+
+    font-size:45px;
+
+}
+
+.about-company{
+
+    text-align:center;
+
+}
+
+.about-company img{
+
+    margin-bottom:40px;
+
+}
+
+.section-title{
+
+    font-size:38px;
+
+}
+
+.about-cta h2{
+
+    font-size:35px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.about-hero{
+
+    padding:70px 20px;
+
+}
+
+.about-hero h1{
+
+    font-size:35px;
+
+}
+
+.about-hero p{
+
+    font-size:17px;
+
+}
+
+.about-company h2{
+
+    font-size:32px;
+
+}
+
+.mission-card,
+.choose-card{
+
+    padding:30px;
+
+}
+
+.about-cta{
+
+    padding:70px 20px;
+
+}
+
+.about-cta h2{
+
+    font-size:30px;
+
+}
+
+}

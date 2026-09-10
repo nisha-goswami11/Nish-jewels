@@ -1,0 +1,365 @@
+/* ==========================================
+   NISH Jewels - Wishlist Page
+========================================== */
+
+
+/* ==========================================
+   Wishlist Banner
+========================================== */
+
+.wishlist-banner {
+
+    padding: 150px 20px 70px;
+
+    background: #EAF6FD;
+
+}
+
+
+.wishlist-banner h1 {
+
+    font-family: 'Playfair Display', serif;
+
+    font-size: 45px;
+
+    color: #233142;
+
+    margin-bottom: 10px;
+
+}
+
+
+.wishlist-banner p {
+
+    color: #666;
+
+    margin: 0;
+
+}
+
+
+/* ==========================================
+   Wishlist Section
+========================================== */
+
+.wishlist-section {
+
+    min-height: 500px;
+
+}
+
+
+/* ==========================================
+   Wishlist Card
+========================================== */
+
+.wishlist-card {
+
+    background: #fff;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+
+    height: 100%;
+
+}
+
+
+.wishlist-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+
+}
+
+
+/* ==========================================
+   Product Image
+========================================== */
+
+.wishlist-image {
+
+    position: relative;
+
+    height: 260px;
+
+    overflow: hidden;
+
+}
+
+
+.wishlist-image img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: 0.4s;
+
+}
+
+
+.wishlist-card:hover .wishlist-image img {
+
+    transform: scale(1.05);
+
+}
+
+
+/* ==========================================
+   Remove Wishlist
+========================================== */
+
+.remove-wishlist {
+
+    position: absolute;
+
+    top: 15px;
+
+    right: 15px;
+
+    width: 42px;
+
+    height: 42px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: #fff;
+
+    color: #dc3545;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+
+.remove-wishlist:hover {
+
+    background: #dc3545;
+
+    color: #fff;
+
+    transform: scale(1.08);
+
+}
+
+
+/* ==========================================
+   Wishlist Info
+========================================== */
+
+.wishlist-info {
+
+    padding: 22px;
+
+    text-align: center;
+
+}
+
+
+.wishlist-info h4 {
+
+    font-family: 'Playfair Display', serif;
+
+    color: #233142;
+
+    font-size: 21px;
+
+    margin-bottom: 6px;
+
+}
+
+
+.category {
+
+    color: #777;
+
+    font-size: 14px;
+
+    margin-bottom: 8px;
+
+}
+
+
+/* ==========================================
+   Rating
+========================================== */
+
+.rating {
+
+    margin-bottom: 8px;
+
+}
+
+
+.rating i {
+
+    color: #FFD700;
+
+    margin: 0 2px;
+
+}
+
+
+/* ==========================================
+   Price
+========================================== */
+
+.price {
+
+    color: #4E8FAE;
+
+    font-weight: 600;
+
+    margin-bottom: 18px;
+
+}
+
+
+/* ==========================================
+   Buttons
+========================================== */
+
+.wishlist-buttons {
+
+    display: flex;
+
+    gap: 10px;
+
+}
+
+
+.wishlist-buttons button {
+
+    flex: 1;
+
+    border-radius: 25px;
+
+    padding: 9px 10px;
+
+    transition: 0.3s;
+
+}
+
+
+.cart-btn {
+
+    border: none;
+
+    background: #6CA6C1;
+
+    color: #fff;
+
+}
+
+
+.cart-btn:hover {
+
+    background: #4E8FAE;
+
+}
+
+
+.view-btn {
+
+    border: 2px solid #6CA6C1;
+
+    background: #fff;
+
+    color: #6CA6C1;
+
+}
+
+
+.view-btn:hover {
+
+    background: #6CA6C1;
+
+    color: #fff;
+
+}
+
+
+/* ==========================================
+   Empty Wishlist
+========================================== */
+
+.empty-wishlist {
+
+    padding: 80px 20px;
+
+}
+
+
+.empty-icon {
+
+    font-size: 70px;
+
+    color: #6CA6C1;
+
+    margin-bottom: 20px;
+
+}
+
+
+.empty-wishlist h3 {
+
+    font-family: 'Playfair Display', serif;
+
+    color: #233142;
+
+    margin-bottom: 10px;
+
+}
+
+
+.empty-wishlist p {
+
+    color: #777;
+
+    margin-bottom: 25px;
+
+}
+
+
+/* ==========================================
+   Responsive
+========================================== */
+
+@media (max-width: 768px) {
+
+    .wishlist-banner {
+
+        padding: 130px 20px 60px;
+
+    }
+
+
+    .wishlist-banner h1 {
+
+        font-size: 34px;
+
+    }
+
+
+    .wishlist-image {
+
+        height: 230px;
+
+    }
+
+}

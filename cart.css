@@ -1,0 +1,305 @@
+/*==================================
+        CART PAGE
+==================================*/
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#F8FCFF;
+}
+
+/*==================================
+        Cart Banner
+==================================*/
+
+.cart-banner{
+
+    margin-top:75px;
+    padding:80px 0;
+    background:linear-gradient(135deg,#EAF6FD,#F8FCFF);
+    text-align:center;
+
+}
+
+.cart-banner h1{
+
+    font-family:'Playfair Display',serif;
+    font-size:50px;
+    color:#233142;
+    font-weight:700;
+
+}
+
+.cart-banner p{
+
+    color:#666;
+    font-size:18px;
+
+}
+
+/*==================================
+        Cart Section
+==================================*/
+
+.cart-section{
+
+    padding:80px 0;
+
+}
+
+/*==================================
+        Cart Card
+==================================*/
+
+.cart-card{
+
+    background:white;
+    border-radius:20px;
+    padding:20px;
+    margin-bottom:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+
+}
+
+.cart-card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+/*==================================
+        Product Image
+==================================*/
+
+.cart-img{
+
+    width:120px;
+    height:120px;
+    object-fit:cover;
+    border-radius:15px;
+
+}
+
+/*==================================
+        Product Details
+==================================*/
+
+.cart-details h4{
+
+    color:#233142;
+    font-weight:600;
+
+}
+
+.cart-details p{
+
+    color:#777;
+    margin-bottom:5px;
+
+}
+
+.price{
+
+    color:#6CA6C1;
+    font-size:22px;
+    font-weight:bold;
+
+}
+
+/*==================================
+        Quantity Buttons
+==================================*/
+
+.quantity-box{
+
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+}
+
+.quantity-btn{
+
+    width:35px;
+    height:35px;
+    border:none;
+    background:#AED9F4;
+    color:white;
+    border-radius:50%;
+    font-size:18px;
+    transition:.3s;
+
+}
+
+.quantity-btn:hover{
+
+    background:#6CA6C1;
+
+}
+
+.quantity{
+
+    font-size:18px;
+    font-weight:600;
+
+}
+
+/*==================================
+        Remove Button
+==================================*/
+
+.remove-btn{
+
+    border:none;
+    background:#ff4d6d;
+    color:white;
+    padding:10px 18px;
+    border-radius:30px;
+    transition:.3s;
+
+}
+
+.remove-btn:hover{
+
+    background:#d6336c;
+
+}
+
+/*==================================
+      Order Summary
+==================================*/
+
+.order-summary{
+
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    position:sticky;
+    top:100px;
+
+}
+
+.order-summary h3{
+
+    color:#233142;
+    margin-bottom:20px;
+    font-family:'Playfair Display',serif;
+
+}
+
+.order-summary span{
+
+    font-size:17px;
+
+}
+
+.order-summary strong{
+
+    font-size:20px;
+    color:#233142;
+
+}
+
+/*==================================
+      Checkout Button
+==================================*/
+
+.checkout-btn{
+
+    background:#AED9F4;
+    color:white;
+    border:none;
+    border-radius:30px;
+    padding:14px;
+    font-weight:600;
+    transition:.3s;
+
+}
+
+.checkout-btn:hover{
+
+    background:#6CA6C1;
+    color:white;
+
+}
+
+/*==================================
+      Empty Cart
+==================================*/
+
+#emptyCart{
+
+    min-height:400px;
+
+}
+
+#emptyCart i{
+
+    color:#AED9F4;
+
+}
+
+#emptyCart h2{
+
+    color:#233142;
+    margin-top:20px;
+
+}
+
+/*==================================
+      Responsive
+==================================*/
+
+@media(max-width:992px){
+
+.order-summary{
+
+position:static;
+margin-top:40px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.cart-banner{
+
+padding:60px 20px;
+
+}
+
+.cart-banner h1{
+
+font-size:35px;
+
+}
+
+.cart-card{
+
+text-align:center;
+
+}
+
+.cart-img{
+
+margin-bottom:20px;
+
+}
+
+.quantity-box{
+
+justify-content:center;
+
+}
+
+.remove-btn{
+
+margin-top:20px;
+
+width:100%;
+
+}
+
+}

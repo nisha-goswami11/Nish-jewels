@@ -1,0 +1,347 @@
+/*==================================
+        PRODUCT PAGE
+==================================*/
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#F8FCFF;
+}
+
+/*==================================
+        Product Banner
+==================================*/
+
+.product-banner{
+    margin-top:75px;
+    background:linear-gradient(135deg,#EAF6FD,#F8FCFF);
+    padding:20px 0;
+}
+
+.breadcrumb{
+    margin:0;
+    background:none;
+}
+
+.breadcrumb a{
+    color:#6CA6C1;
+    text-decoration:none;
+}
+
+.breadcrumb-item.active{
+    color:#233142;
+}
+
+/*==================================
+        Product Section
+==================================*/
+
+.product-section{
+    padding:80px 0;
+}
+
+/*==================================
+        Product Gallery
+==================================*/
+
+.product-gallery{
+    display:flex;
+    gap:20px;
+}
+
+.thumbnail-images{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.thumb{
+    width:90px;
+    height:90px;
+    object-fit:cover;
+    border:2px solid transparent;
+    border-radius:12px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.thumb:hover,
+.active-thumb{
+    border-color:#6CA6C1;
+    transform:scale(1.05);
+}
+
+.main-image{
+    flex:1;
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.main-image img{
+    width:100%;
+    transition:.4s;
+}
+
+.main-image img:hover{
+    transform:scale(1.08);
+}
+
+/*==================================
+        Product Details
+==================================*/
+
+.product-title{
+    font-family:'Playfair Display',serif;
+    color:#233142;
+    font-size:40px;
+    font-weight:700;
+}
+
+.rating{
+    color:#F4B400;
+    font-size:18px;
+    margin:15px 0;
+}
+
+.rating span{
+    color:#666;
+    font-size:15px;
+}
+
+.price{
+    color:#6CA6C1;
+    font-size:34px;
+    font-weight:bold;
+    margin:20px 0;
+}
+
+.availability{
+    font-size:17px;
+    color:#28A745;
+    font-weight:500;
+}
+
+.product-meta p{
+    margin-bottom:8px;
+}
+
+/*==================================
+        Quantity
+==================================*/
+
+.quantity-section{
+    margin:30px 0;
+}
+
+.quantity-box{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.quantity-box button{
+    width:45px;
+    height:45px;
+    border:none;
+    background:#AED9F4;
+    color:#fff;
+    border-radius:50%;
+    font-size:22px;
+    transition:.3s;
+}
+
+.quantity-box button:hover{
+    background:#6CA6C1;
+}
+
+#quantity{
+    font-size:22px;
+    font-weight:600;
+}
+
+/*==================================
+        Buttons
+==================================*/
+
+.product-buttons{
+    display:flex;
+    gap: 2px;
+    flex-wrap:wrap;
+}
+
+.cart-btn{
+    background:#6CA6C1;
+    color:#fff;
+    padding:12px 30px;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.cart-btn:hover{
+    background:#4E8FAE;
+    color:#fff;
+}
+
+.wishlist-btn{
+    background:#fff;
+    border:2px solid #AED9F4;
+    color:#6CA6C1;
+    padding:12px 30px;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.wishlist-btn:hover{
+    background:#AED9F4;
+    color:#fff;
+}
+
+/*==================================
+        Description
+==================================*/
+
+.description-section{
+    background:#fff;
+    padding:70px 0;
+}
+
+.description-section h2{
+    font-family:'Playfair Display',serif;
+    color:#233142;
+    margin-bottom:25px;
+}
+
+.description-section p{
+    color:#666;
+    line-height:1.8;
+}
+
+/*==================================
+        Shipping Cards
+==================================*/
+
+.shipping-section{
+    padding:70px 0;
+}
+
+.info-card{
+    background:#fff;
+    text-align:center;
+    padding:35px 25px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+    height:100%;
+}
+
+.info-card:hover{
+    transform:translateY(-8px);
+}
+
+.info-card i{
+    font-size:42px;
+    color:#6CA6C1;
+    margin-bottom:20px;
+}
+
+.info-card h5{
+    color:#233142;
+    margin-bottom:10px;
+}
+
+.info-card p{
+    color:#666;
+}
+
+/*==================================
+        Related Products
+==================================*/
+
+.related-products{
+    background:#F8FCFF;
+}
+
+.related-products h2{
+    font-family:'Playfair Display',serif;
+    color:#233142;
+}
+
+.product-card{
+    background:#fff;
+    padding:20px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.product-card:hover{
+    transform:translateY(-8px);
+}
+
+.product-card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+.product-card h5{
+    margin-top:20px;
+    color:#233142;
+}
+
+.product-card p{
+    color:#6CA6C1;
+    font-size:20px;
+    font-weight:600;
+}
+
+/*==================================
+        Responsive
+==================================*/
+
+@media(max-width:992px){
+
+.product-gallery{
+    flex-direction:column;
+}
+
+.thumbnail-images{
+    flex-direction:row;
+    justify-content:center;
+}
+
+.product-title{
+    margin-top:40px;
+    font-size:34px;
+}
+
+}
+
+@media(max-width:768px){
+
+.product-title{
+    font-size:28px;
+}
+
+.product-buttons{
+    flex-direction:column;
+}
+
+.cart-btn,
+.wishlist-btn{
+    width:100%;
+}
+
+.thumb{
+    width:70px;
+    height:70px;
+}
+
+.main-image img{
+    height:auto;
+}
+
+}

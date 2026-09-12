@@ -17,7 +17,7 @@ const products = [
         price: 2999,
         rating: 5,
         material: "Sterling Silver",
-        image: "images/WhatsApp Image 2026-06-22 at 1.51.59 PM (1).jpeg",
+        image: "WhatsApp Image 2026-06-22 at 1.51.59 PM (1).jpeg",
         description:
             "Elegant handcrafted diamond ring made with premium quality materials. Perfect for weddings, anniversaries and special occasions."
     },
@@ -29,7 +29,7 @@ const products = [
         price: 4599,
         rating: 5,
         material: "Gold Plated",
-        image: "images/gold necklace.jpeg",
+        image: "gold necklace.jpeg",
         description:
             "Elegant gold necklace designed to add a touch of luxury and sophistication to every occasion."
     },
@@ -41,7 +41,7 @@ const products = [
         price: 1999,
         rating: 5,
         material: "Pearl",
-        image: "images/pearl earing.jpeg",
+        image: "pearl earing.jpeg",
         description:
             "Beautiful pearl earrings with a timeless design, perfect for both everyday wear and special occasions."
     },
@@ -53,7 +53,7 @@ const products = [
         price: 2499,
         rating: 5,
         material: "Sterling Silver",
-        image: "images/silver bracelets.jpeg",
+        image: "silver bracelets.jpeg",
         description:
             "Elegant silver bracelet crafted for a graceful and sophisticated look."
     },
@@ -65,7 +65,7 @@ const products = [
         price: 3499,
         rating: 5,
         material: "Rose Gold",
-        image: "images/Rose gold ring.jpeg",
+        image: "Rose gold ring.jpeg",
         description:
             "A beautiful rose gold ring designed with elegance and a modern touch."
     },
@@ -77,7 +77,7 @@ const products = [
         price: 5999,
         rating: 5,
         material: "Premium Gold",
-        image: "images/luxury necklace.jpeg",
+        image: "luxury necklace.jpeg",
         description:
             "A luxurious necklace designed to make every special occasion memorable."
     },
@@ -89,7 +89,7 @@ const products = [
         price: 2799,
         rating: 5,
         material: "Sterling Silver",
-        image: "images/WhatsApp Image 2026-06-22 at 1.52.02 PM (10).jpeg",
+        image: "WhatsApp Image 2026-06-22 at 1.52.02 PM (10).jpeg",
         description:
             "Elegant diamond earrings crafted to add sparkle and sophistication to your look."
     },
@@ -101,7 +101,7 @@ const products = [
         price: 3199,
         rating: 5,
         material: "Gold Plated",
-        image: "images/gold bracelet.jpeg",
+        image: "gold bracelet.jpeg",
         description:
             "A stylish gold bracelet that combines elegance, comfort and timeless beauty."
     }
